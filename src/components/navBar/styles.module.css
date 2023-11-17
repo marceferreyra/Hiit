@@ -1,0 +1,25 @@
+.navBar {
+    background-color: #000c43c9 !important;
+    padding-right: 10px;
+    width: 100%;
+}
+
+.navBarHiit {
+    transform: translate(-30px, 0px);    
+}
+
+.navCarrito {
+    transform: translate(30px, 0px);
+}
+
+.navHome {
+    padding-left: 10px !important;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.navProducts {
+    padding-left: 30px !important;
+    font-weight: 700;
+    color: black;
+}

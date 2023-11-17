@@ -1,0 +1,102 @@
+.cart {
+    display: flex;
+    flex-direction: row;
+    margin-left: 30px;
+    width: 90%;
+    height: 55px;
+    margin-top: 15px;
+    align-items: center;
+}
+
+.image img {
+    height: 50px;
+    width: 50px;
+}
+
+.image {
+    width: 10%;
+    text-align: center;
+
+}
+
+.title {
+    width: 30%;
+    border-left: solid black 1px;
+    text-align: center;
+
+}
+
+.quantity {
+    width: 20%;
+    border-left: solid black 1px;
+    text-align: center;
+
+}
+
+.price {
+    width: 20%;
+    border-left: solid black 1px;
+
+    text-align: center;
+
+}
+
+.subtotal {
+    width: 20%;
+    border-left: solid black 1px;
+    border-right: solid black 1px;
+    text-align: center;
+
+}
+
+.buy {
+    background-color: #000c43c9;
+    font-weight: bold;
+    margin-right: 10px;
+
+}
+
+.clearCart {
+    background-color: #c9000c;
+    font-weight: bold;
+}
+
+.trash {
+    background: none;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.p {
+
+    margin-top: 50px;
+}
+
+.titulo {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: rgb(52, 49, 49);
+    text-align: center;
+}
+
+.emptyCart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.total {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 247px;
+    margin-top: 30px;
+}
+
+.cartButton {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-right: 150px;
+}
+
